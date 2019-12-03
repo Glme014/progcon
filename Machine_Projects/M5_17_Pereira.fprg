@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-12-03 08:26:04 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMzQ7MjAxOS0xMi0wMzswNzo1Nzo0MyBBTTsyMjA0"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMzQ7MjAxOS0xMi0wMzswODoyNjowNCBBTTsxOzIzMDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Num1" type="Integer" array="False" size=""/>
+            <declare name="Num2" type="Integer" array="False" size=""/>
+            <declare name="Num3" type="Integer" array="False" size=""/>
+            <output expression="&quot; pls type in three number but not at one go&quot;" newline="True"/>
+            <input variable="Num1"/>
+            <output expression="&quot;Next pls&quot;" newline="True"/>
+            <input variable="Num2"/>
+            <output expression="&quot; Sige isa pa&quot;" newline="True"/>
+            <input variable="Num3"/>
+            <if expression="Num1 &lt; Num2">
+                <then>
+                    <output expression="Num1" newline="True"/>
+                    <output expression="&quot;Thats the lowst number&quot;" newline="True"/>
+                    <output expression="&quot;Thanks for putting in numbers&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Num2 &lt; Num3">
+                        <then>
+                            <output expression="Num2" newline="True"/>
+                            <output expression="&quot;Thats the lowst number&quot;" newline="True"/>
+                            <output expression="&quot;Thanks for putting in numbers&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Num3 &lt; Num1">
+                                <then>
+                                    <output expression="Num3" newline="True"/>
+                                    <output expression="&quot;Thats the lowst number&quot;" newline="True"/>
+                                    <output expression="&quot;Thanks for putting in numbers&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
